@@ -1,0 +1,61 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(255, 255, 255, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.list {
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  list-style: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.list li {
+  width: 100%;
+}
+
+.list li label{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-wrapper button {
+  margin: 5px;
+  width: 50px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 5px;
+}
